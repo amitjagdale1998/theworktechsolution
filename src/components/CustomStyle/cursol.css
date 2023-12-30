@@ -1,0 +1,107 @@
+/* Carousel 100% Fullscreen */
+
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel {
+    margin-bottom: 60px;
+    height: 70%;
+    margin-top: 15rem;
+}
+
+.carousel-caption {
+    z-index: 10;
+}
+.girlpic {
+    /* background-color: #4b0082; */
+    /* height: 80%; */
+
+    /* background: #a135ee; */
+    /* background-image: linear-gradient(
+        90.1deg,
+        rgba(84, 212, 228, 1) 0.2%,
+        rgba(68, 36, 164, 1) 99.9%
+    ); */
+    box-sizing: border-box;
+    -webkit-clip-path: polygon(
+        0% 50%,
+        25% 0%,
+        75% 0%,
+        100% 50%,
+        75% 100%,
+        25% 100%
+    );
+    -moz-clip-path: polygon(
+        0% 50%,
+        25% 0%,
+        75% 0%,
+        100% 50%,
+        75% 100%,
+        25% 100%
+    );
+
+    /* Additional styles for larger screens */
+}
+.girl-banner {
+    display: flex;
+    flex-direction: row;
+}
+
+/* .carousel .item {
+    background-color: #777;
+} */
+
+.carousel .carousel-inner .bg {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.carousel .carousel-inner .bg1 {
+    background-image: url("../images/banner1.png");
+    background-position: center top;
+}
+
+.carousel .carousel-inner .bg2 {
+    background-image: url("../images/banner2.png");
+    background-position: center center;
+}
+
+.carousel .carousel-inner .bg3 {
+    background-image: url("../images/banner3.png");
+    background-position: center bottom;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 768px) {
+    .carousel {
+        height: 100%; /* Adjust height for smaller screens */
+    }
+
+    .carousel-caption {
+        display: none; /* Hide caption on smaller screens */
+    }
+    .girlpic {
+        min-width: 30%;
+        min-height: 30%;
+    }
+}
+
+@media (max-width: 576px) {
+    .carousel .carousel-inner .bg1,
+    .carousel .carousel-inner .bg2,
+    .carousel .carousel-inner .bg3 {
+        background-position: center center; /* Adjust background position for smaller screens */
+    }
+    .girlpic {
+        min-width: 70%;
+        min-height: 70%;
+    }
+}
