@@ -13,6 +13,7 @@ import SmoothScroll from "smooth-scroll";
 import "./App.css";
 import MarquiLine from "./components/MarquiLine";
 import Cursole from "./components/Cursole";
+import TrainningProgram from "./components/TrainningProgram";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000,
@@ -29,8 +30,9 @@ const App = () => {
         <div>
             <Navigation />
             <Cursole data={landingPageData.Header} />
+            <TrainningProgram />
 
-            <Header data={landingPageData.Header} />
+            {/* <Header data={landingPageData.Header} /> */}
             <Features data={landingPageData.Features} />
             <About data={landingPageData.About} />
 

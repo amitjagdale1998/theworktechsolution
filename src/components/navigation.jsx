@@ -55,7 +55,31 @@ export const Navigation = (props) => {
                             </button>
                         </div>
                     </div>
-
+                    {/* ///CONTACT INFO */}
+                    <div className="navbar-header">
+                        <div
+                            className="row"
+                            style={{
+                                display: "flex",
+                                flexDirection: "row",
+                                height: "auto",
+                                justifyContent: "space-between",
+                                width: "100%",
+                                marginTop: "20px",
+                            }}
+                        >
+                            <div
+                                style={{
+                                    display: "flex",
+                                    flexDirection: "row",
+                                    width: "400px",
+                                }}
+                            >
+                                <div>Training|Placement|solution</div>
+                            </div>
+                            <div>contact:+0197328687498910</div>
+                        </div>
+                    </div>
                     <div
                         className="collapse navbar-collapse"
                         id="bs-example-navbar-collapse-1"
