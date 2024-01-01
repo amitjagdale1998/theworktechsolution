@@ -11,14 +11,9 @@ import dotnet from "./images/dotnet.png";
 
 const TrainningProgram = () => {
     return (
-        <>
-            <div className="text-center">
-                <h2>
-                    <u className="mt-5" style={{ color: "#851919" }}>
-                        {" "}
-                        TRAINING PROGRAMME
-                    </u>
-                </h2>
+        <div className="trainingProgramme-page">
+            <div className=" text-center">
+                <h2 className="heading">TRAINING PROGRAMME</h2>
             </div>
             <div
                 className="program-page"
@@ -150,7 +145,7 @@ const TrainningProgram = () => {
                     </CardActions>
                 </Card>
             </div>
-        </>
+        </div>
     );
 };
 

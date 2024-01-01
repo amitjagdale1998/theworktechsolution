@@ -66,7 +66,7 @@ hr {
     width: 70px;
     text-align: center;
     position: relative;
-    background: #910808;
+    background: #980303;
     margin-bottom: 20px;
     border: 0;
 }
@@ -677,4 +677,14 @@ label {
         width: 100%;
         font-size: 15px;
     }
+}
+
+/* ###################################my changes################################################################### */
+.trainingProgramme-page {
+    background-color: whitesmoke;
+}
+.heading {
+    background: -webkit-linear-gradient(#e31d1d, #5a0303);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
