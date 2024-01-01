@@ -15,6 +15,19 @@ export const About = (props) => {
                     <div className="col-xs-12 col-md-6">
                         <div className="about-text">
                             <h2>About Us</h2>
+                            <h3>
+                                {props.data ? (
+                                    <>
+                                        {props.data.MainTitle}
+                                        <h3 style={{ color: "red" }}>
+                                            {" "}
+                                            WorktechSolution!
+                                        </h3>
+                                    </>
+                                ) : (
+                                    "loading..."
+                                )}
+                            </h3>
                             <p>
                                 {props.data
                                     ? props.data.paragraph
@@ -45,6 +58,28 @@ export const About = (props) => {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div className="col-xs-12 col-md-6">
+                    <div className="about-text">
+                        {props.data
+                            ? props.data.vision.map((d, i) => (
+                                  <div>
+                                      <h4>{d.title}</h4>
+                                      <div>{d.paragraph}</div>
+                                  </div>
+                              ))
+                            : "loading"}
+                    </div>
+                    <div className="about-text">
+                        {props.data
+                            ? props.data.mission.map((d, i) => (
+                                  <div>
+                                      <h4>{d.title}</h4>
+                                      <div>{d.paragraph}</div>
+                                  </div>
+                              ))
+                            : "loading"}
                     </div>
                 </div>
             </div>

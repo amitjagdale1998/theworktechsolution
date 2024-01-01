@@ -12,15 +12,14 @@ import dotnet from "./images/dotnet.png";
 const TrainningProgram = () => {
     return (
         <>
-            <h1
-                style={{
-                    fontSize: "35px",
-
-                    textAlign: "center",
-                }}
-            >
-                <u className="mt-5"> TRAINING PROGRAMME</u>
-            </h1>
+            <div className="text-center">
+                <h2>
+                    <u className="mt-5" style={{ color: "#851919" }}>
+                        {" "}
+                        TRAINING PROGRAMME
+                    </u>
+                </h2>
+            </div>
             <div
                 className="program-page"
                 style={{
