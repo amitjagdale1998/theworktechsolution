@@ -1,6 +1,5 @@
 import React from "react";
 import MarquiLine from "./MarquiLine";
-import Cursole from "./Cursole";
 
 export const Header = (props) => {
     return (
@@ -11,12 +10,12 @@ export const Header = (props) => {
                         <div className="container">
                             <div className="row">
                                 <div className="col-md-8 col-md-offset-2 intro-text">
-                                    <span className="intro-title">
+                                    <h2>
                                         {props.data
                                             ? props.data.title
                                             : "Loading"}
                                         <span></span>
-                                    </span>
+                                    </h2>
                                     <p>
                                         {props.data
                                             ? props.data.paragraph

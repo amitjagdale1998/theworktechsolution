@@ -1,6 +1,7 @@
 import React from "react";
 import logo from "../components/images/logo.png";
 import MarquiLine from "./MarquiLine";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 export const Navigation = (props) => {
     return (
         <>
@@ -75,9 +76,24 @@ export const Navigation = (props) => {
                                     width: "400px",
                                 }}
                             >
-                                <div>Training|Placement|solution</div>
+                                <div className="tps">
+                                    <span className="tps-training">
+                                        Training
+                                    </span>
+                                    |
+                                    <span className="tps-placement">
+                                        Placement
+                                    </span>
+                                    |
+                                    <span className="tps-solution">
+                                        Solution
+                                    </span>
+                                </div>
                             </div>
-                            <div>contact:+0197328687498910</div>
+                            <div className="contact-section">
+                                <WhatsAppIcon id="whatsapp-icon" />
+                                <span className="contactno">+919766769892</span>
+                            </div>
                         </div>
                     </div>
                     <div
