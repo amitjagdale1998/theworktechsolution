@@ -2,35 +2,48 @@ import { useState } from "react";
 // import emailjs from "emailjs-com";
 import React from "react";
 import axios from "axios";
+import Swal from "sweetalert2";
 
-const initialState = {
-    name: "",
-    email: "",
-    message: "",
-    contact: "",
-};
+const initialState = {};
 export const Contact = (props) => {
-    const [{ name, email, message, contact }, setState] =
-        useState(initialState);
+    const [state, setState] = useState({
+        name: "",
+        email: "",
+        message: "",
+        contact: "",
+    });
 
     const handleChange = (e) => {
         const { name, value } = e.target;
         setState((prevState) => ({ ...prevState, [name]: value }));
     };
-    console.log(name, email, message, contact);
-    const clearState = () => setState({ ...initialState });
-    const handleSubmit = () => {
+
+    const clearState = () =>
+        setState({ name: "", email: "", message: "", contact: "" });
+    const handleSubmit = async () => {
+        if (!state.email && !state.contact) {
+            Swal.fire({ icon: "error", text: "All fields are mandatory!" });
+            return;
+        }
+
         try {
-            const res = axios.post(
-                "https://ionic-idvv.onrender.com/ionic/enquirydata",
+            const res = await axios.post(
+                "https://ionic-idvv.onrender.com/ionic/worktech",
+                state,
                 {
-                    ...initialState,
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
                 }
             );
-            if (res.success === true) {
-                console.log("form submit successfully!");
+            console.log(res.data);
+            if (res.data.isSuccess === true) {
+                Swal.fire({
+                    text: "The message send has been Successfully.",
+                    icon: "success",
+                });
             } else {
-                console.log("Something Went to  wrong!");
+                alert("Something Went to  wrong!");
             }
         } catch (err) {
             console.log(err);
@@ -78,11 +91,7 @@ export const Contact = (props) => {
                                     possible.
                                 </p>
                             </div>
-                            <form
-                                name="sentMessage"
-                                validate
-                                onSubmit={handleSubmit}
-                            >
+                            <div>
                                 <div className="row">
                                     <div className="col-md-3">
                                         <div className="form-group">
@@ -94,6 +103,7 @@ export const Contact = (props) => {
                                                 placeholder="Name"
                                                 required
                                                 onChange={handleChange}
+                                                value={state.name}
                                             />
                                             <p className="help-block text-danger"></p>
                                         </div>
@@ -107,6 +117,7 @@ export const Contact = (props) => {
                                                 className="form-control"
                                                 placeholder="Contact"
                                                 required
+                                                value={state.contact}
                                                 onChange={handleChange}
                                             />
                                             <p className="help-block text-danger"></p>
@@ -122,6 +133,7 @@ export const Contact = (props) => {
                                                 placeholder="Email"
                                                 required
                                                 onChange={handleChange}
+                                                value={state.email}
                                             />
                                             <p className="help-block text-danger"></p>
                                         </div>
@@ -135,6 +147,7 @@ export const Contact = (props) => {
                                         rows="4"
                                         placeholder="Message"
                                         required
+                                        value={state.message}
                                         onChange={handleChange}
                                     ></textarea>
                                     <p className="help-block text-danger"></p>
@@ -143,10 +156,11 @@ export const Contact = (props) => {
                                 <button
                                     type="submit"
                                     className="btn btn-custom btn-lg"
+                                    onClick={handleSubmit}
                                 >
                                     Send Message
                                 </button>
-                            </form>
+                            </div>
                         </div>
                     </div>
                     <div className="col-md-3 col-md-offset-1 contact-info">

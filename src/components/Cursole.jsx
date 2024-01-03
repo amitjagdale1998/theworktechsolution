@@ -8,16 +8,16 @@ import fullstack3 from "./images/withoutbg/fullstack-3.png";
 import girlpic from "./images/withoutbg/girlpic.png";
 import webdev1 from "./images/withoutbg/webdev-1.png";
 import { styled } from "@mui/material/styles";
-import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
-import Grid from "@mui/material/Grid";
-const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: "center",
-    color: theme.palette.text.secondary,
-}));
+// import Box from "@mui/material/Box";
+// import Paper from "@mui/material/Paper";
+// import Grid from "@mui/material/Grid";
+// const Item = styled(Paper)(({ theme }) => ({
+//     backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
+//     ...theme.typography.body2,
+//     padding: theme.spacing(1),
+//     textAlign: "center",
+//     color: theme.palette.text.secondary,
+// }));
 
 const Cursole = () => {
     return (
@@ -31,7 +31,7 @@ http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
             {/* <MarquiLine /> */}
             <div
                 id="myCarousel"
-                className="carousel slide"
+                className="carousel slide mt-5"
                 data-ride="carousel"
             >
                 <ol className="carousel-indicators">
@@ -129,8 +129,7 @@ http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
                         </div>
                     </div>
                     <div className="item bg bg2">
-                        <div className="container">
-                            {/* <div className="carousel-caption">
+                        {/* <div className="carousel-caption">
                                 <h1>One more for good measure.</h1>
                                 <p>
                                     Cras justo odio, dapibus ac facilisis in,
@@ -148,19 +147,10 @@ http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
                                     </a>
                                 </p>
                             </div> */}
-                            <div className="row girl-banner">
-                                <div className="col">
+                        <div className="container girl-banner">
+                            <div className="row">
+                                <div className="col-4">
                                     <div>
-                                        {/* <p
-                                            style={{
-                                                fontSize: "20px",
-                                                color: "white",
-                                            }}
-                                        >
-                                            INDIA’S LEADING AND TRUSTED IT
-                                            TRAINING INSTITUTE OFFERING
-                                            CLASSROOM & ONLINE TRAINING
-                                        </p> */}
                                         <h3 style={{ color: "white" }}>
                                             The Worktech Solution
                                         </h3>
@@ -171,7 +161,7 @@ http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
                                         ></img>
                                     </div>
                                 </div>
-                                <div className="col">
+                                <div className="col-6">
                                     <div
                                         style={{ textAlign: "center" }}
                                         className="pt-5"
@@ -179,26 +169,10 @@ http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
                                         <img
                                             src={fullstack3}
                                             className="image-responsive"
-                                            style={{
-                                                minWidth: "400px",
-                                                marginLeft: "auto",
-                                                marginRight: "auto",
-                                                padding: "20px",
-                                                maxWidth: "600px",
-                                                width: "100%",
-                                            }}
                                         ></img>
                                         <img
                                             src={webdev1}
                                             className="image-responsive"
-                                            style={{
-                                                minWidth: "400px",
-                                                marginLeft: "auto",
-                                                marginRight: "auto",
-                                                padding: "20px",
-                                                maxWidth: "600px",
-                                                width: "100%",
-                                            }}
                                         ></img>
                                     </div>
                                 </div>

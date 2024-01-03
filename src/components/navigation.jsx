@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../components/images/logo.png";
 import MarquiLine from "./MarquiLine";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+
 export const Navigation = (props) => {
     return (
         <>
