@@ -3,7 +3,7 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-import { Button, CardActionArea, CardActions } from "@mui/material";
+import { button, CardActionArea, CardActions } from "@mui/material";
 import mern from "./images/mernstack.png";
 import java from "./images/java.jpeg";
 import uiux from "./images/uiux.png";
@@ -11,7 +11,7 @@ import dotnet from "./images/dotnet.png";
 
 const TrainningProgram = () => {
     return (
-        <div className="trainingProgramme-page">
+        <div id="courses" className="trainingProgramme-page">
             <div className=" text-center">
                 <h2 className="heading">TRAINING PROGRAMME</h2>
             </div>
@@ -48,9 +48,17 @@ const TrainningProgram = () => {
                         </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary">
-                            Share
-                        </Button>
+                        {/* <button size="large" color="primary" className="btn">
+                            
+                        </button> */}
+                        {/* <button type="button"  > */}
+                        <a
+                            href="#contact"
+                            className="page-scroll btn btn-danger"
+                        >
+                            Enquire Now
+                        </a>
+                        {/* </button> */}
                     </CardActions>
                 </Card>
                 <Card sx={{ maxWidth: 345, margin: "10px" }}>
@@ -78,9 +86,12 @@ const TrainningProgram = () => {
                         </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary">
-                            Share
-                        </Button>
+                        <a
+                            href="#contact"
+                            className="page-scroll btn btn-danger"
+                        >
+                            Enquire Now
+                        </a>
                     </CardActions>
                 </Card>
                 <Card sx={{ maxWidth: 345, margin: "10px" }}>
@@ -108,9 +119,12 @@ const TrainningProgram = () => {
                         </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary">
-                            Share
-                        </Button>
+                        <a
+                            href="#contact"
+                            className="page-scroll btn btn-danger"
+                        >
+                            Enquire Now
+                        </a>
                     </CardActions>
                 </Card>
                 <Card sx={{ maxWidth: 345, margin: "10px" }}>
@@ -139,9 +153,12 @@ const TrainningProgram = () => {
                         </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <Button size="small" color="primary">
-                            Share
-                        </Button>
+                        <a
+                            href="#contact"
+                            className="page-scroll btn btn-danger"
+                        >
+                            Enquire Now
+                        </a>
                     </CardActions>
                 </Card>
             </div>

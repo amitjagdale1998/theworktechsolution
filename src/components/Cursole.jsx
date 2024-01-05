@@ -7,6 +7,7 @@ import fullstack2 from "./images/withoutbg/fullstack-2.png";
 import fullstack3 from "./images/withoutbg/fullstack-3.png";
 import girlpic from "./images/withoutbg/girlpic.png";
 import webdev1 from "./images/withoutbg/webdev-1.png";
+import mainbannerpic from "./images/withoutbg/webdev-1.png";
 import { styled } from "@mui/material/styles";
 // import Box from "@mui/material/Box";
 // import Paper from "@mui/material/Paper";
@@ -33,6 +34,7 @@ http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
                 id="myCarousel"
                 className="carousel slide mt-5"
                 data-ride="carousel"
+                style={{ width: "100%" }}
             >
                 <ol className="carousel-indicators">
                     <li
@@ -147,33 +149,56 @@ http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
                                     </a>
                                 </p>
                             </div> */}
-                        <div className="container girl-banner">
+                        <div className="container girl-banner text-center">
                             <div className="row">
-                                <div className="col-4">
+                                <div className="col">
                                     <div>
                                         <h3 style={{ color: "white" }}>
                                             The Worktech Solution
                                         </h3>
-                                        <button>Enquire Now</button>
-                                        <img
-                                            src={girlpic}
-                                            className="image-responsive girlpic"
-                                        ></img>
-                                    </div>
-                                </div>
-                                <div className="col-6">
-                                    <div
-                                        style={{ textAlign: "center" }}
-                                        className="pt-5"
-                                    >
-                                        <img
-                                            src={fullstack3}
-                                            className="image-responsive"
-                                        ></img>
-                                        <img
-                                            src={webdev1}
-                                            className="image-responsive"
-                                        ></img>
+
+                                        <div
+                                            style={{
+                                                color: "white",
+                                                padding: "20px",
+                                                textAlign: "center",
+                                                width: "400px",
+                                                height: "400px",
+                                            }}
+                                        >
+                                            <h3 style={{ color: "white" }}>
+                                                Empower your future with
+                                                TheWorkTech Solution – Your
+                                                Gateway to Excellence in
+                                                Software Training. Unlock
+                                                boundless possibilities through
+                                                our comprehensive programs and
+                                                elevate your skills in the
+                                                dynamic world of technology.
+                                            </h3>
+                                            <button
+                                                style={{
+                                                    color: "white",
+                                                    backgroundColor: "red",
+                                                    height: "30px",
+                                                    borderRadius: "10px",
+                                                    width: "200px",
+                                                    fontWeight: "bolder",
+                                                    border: "2px solid white",
+                                                }}
+                                            >
+                                                Enquire Now
+                                            </button>
+                                            <img
+                                                src={mainbannerpic}
+                                                width={400}
+                                            ></img>
+                                            <h3 style={{ color: "white" }}>
+                                                Free Demo Session On Fullstack
+                                                Development Java, Dotnet, Mean
+                                                Stack, Mern Stack
+                                            </h3>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

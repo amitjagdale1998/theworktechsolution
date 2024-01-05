@@ -1,4 +1,5 @@
 import React from "react";
+import AboutImage from "./images/aboutus.jpg";
 
 export const About = (props) => {
     return (
@@ -7,7 +8,7 @@ export const About = (props) => {
                 <div className="row">
                     <div className="col-xs-12 col-md-6">
                         <img
-                            src="img/about.jpg"
+                            src={AboutImage}
                             className="img-responsive"
                             alt=""
                         />

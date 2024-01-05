@@ -41,7 +41,7 @@ export const Navigation = (props) => {
                                 </div>
                             </div>
                             <button
-                                // style={{ paddingBottom: "200px" }}
+                                style={{ border: "none" }}
                                 type="button"
                                 className="navbar-toggle collapsed mb"
                                 data-toggle="collapse"
@@ -59,22 +59,13 @@ export const Navigation = (props) => {
                     </div>
                     {/* ///CONTACT INFO */}
                     <div className="navbar-header">
-                        <div
-                            className="row"
-                            style={{
-                                display: "flex",
-                                flexDirection: "row",
-                                height: "auto",
-                                justifyContent: "space-between",
-                                width: "100%",
-                                marginTop: "20px",
-                            }}
-                        >
+                        <div className="text-center">
                             <div
                                 style={{
                                     display: "flex",
                                     flexDirection: "row",
-                                    width: "400px",
+                                    width: "300px",
+                                    justifyContent: "center",
                                 }}
                             >
                                 <div className="tps">
@@ -91,12 +82,19 @@ export const Navigation = (props) => {
                                     </span>
                                 </div>
                             </div>
-                            <div className="contact-section">
+                            <div
+                                className="contact-section row"
+                                style={{
+                                    justifyContent: "center",
+                                    width: "265px",
+                                }}
+                            >
                                 <WhatsAppIcon id="whatsapp-icon" />
                                 <span className="contactno">+919766769892</span>
                             </div>
                         </div>
                     </div>
+
                     <div
                         className="collapse navbar-collapse"
                         id="bs-example-navbar-collapse-1"
@@ -112,29 +110,35 @@ export const Navigation = (props) => {
                                     About
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="#services" className="page-scroll">
                                     Services
                                 </a>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <a href="#portfolio" className="page-scroll">
                                     Gallery
                                 </a>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <a href="#testimonials" className="page-scroll">
                                     Testimonials
                                 </a>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <a href="#team" className="page-scroll">
                                     Team
                                 </a>
-                            </li>
+                            </li> */}
+
                             <li>
                                 <a href="#contact" className="page-scroll">
                                     Contact
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#courses" className="page-scroll">
+                                    courses
                                 </a>
                             </li>
                         </ul>

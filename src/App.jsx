@@ -16,7 +16,7 @@ import Cursole from "./components/Cursole";
 import TrainningProgram from "./components/TrainningProgram";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
-    speed: 1000,
+    speed: 500,
     speedAsDuration: true,
 });
 
@@ -37,9 +37,9 @@ const App = () => {
             <About data={landingPageData.About} />
 
             {/* <Services data={landingPageData.Services} /> */}
-            <Gallery data={landingPageData.Gallery} />
-            <Testimonials data={landingPageData.Testimonials} />
-            <Team data={landingPageData.Team} />
+            {/* <Gallery data={landingPageData.Gallery} /> */}
+            {/* <Testimonials data={landingPageData.Testimonials} /> */}
+            {/* <Team data={landingPageData.Team} /> */}
             <Contact data={landingPageData.Contact} />
         </div>
     );
