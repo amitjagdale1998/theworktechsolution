@@ -4,18 +4,33 @@
         "paragraph": "Here at TheWorkTechSolution, we focus on providing technical knowledge along with building a profile of each and every student with White Glove service and support because the end goal of our team is to make the students job-ready. Thus, our IT Courses have been proven to be the best for students. We, being one of the most preferred Software Training Institutes in India, work hard on giving our students the best learning experience."
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "MainTitle": "Welcome to",
+        "paragraph": "We are a team of software professionals and corporate trainers, with experience spanning more than 25 years. Based on our experience we have created these practical oriented, project based courses which will help students not only to gain the necessary skills required to secure a job in the industry but also to be self-sufficient and apply those skills as freelancer or entrepreneur. We carry a unique approach towards professional skills development of IT aspirants.",
         "Why": [
-            "Lorem ipsum dolor",
-            "Tempor incididunt",
-            "Lorem ipsum dolor",
-            "Incididunt ut labore"
+            " Always Tell The Truth.",
+            "Open And Honest Communication.",
+            " Transparent Processes.",
+            "Walk The Talk.",
+            "Powered By People.",
+            "Focused On Customers."
         ],
         "Why2": [
-            "Aliquip ex ea commodo",
-            "Lorem ipsum dolor",
-            "Exercitation ullamco",
-            "Lorem ipsum dolor"
+            "Project Based Practical Learning",
+            " Innovative Teaching & Learning Methodologies",
+            " Focused On Training Need Analysis",
+            " Open For Change And Willing To Adapt The Change"
+        ],
+        "vision": [
+            {
+                "title": "Our Vision",
+                "paragraph": "To be & to be known as India’s most reliable, trustworthy, career counselling and training company in the field of engineering."
+            }
+        ],
+        "mission": [
+            {
+                "title": "Our Mission",
+                "paragraph": "To implant the correct and necessary skills in the students, empowering them to be billable from the day one for our clients."
+            }
         ]
     },
     "Gallery": [
@@ -161,23 +176,23 @@
     },
     "Features": [
         {
-            "icon": "fa fa-comments-o",
-            "title": "Lorem ipsum",
+            "icon": "fa fa-book",
+            "title": "Online Courses",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
-            "icon": "fa fa-bullhorn",
-            "title": "Lorem ipsum",
+            "icon": "fa fa-black-tie",
+            "title": "Expert Trainer",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
-            "icon": "fa fa-group",
-            "title": "Lorem ipsum",
+            "icon": "fa fa-trophy",
+            "title": "Get Certificate",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         },
         {
-            "icon": "fa fa-magic",
-            "title": "Lorem ipsum",
+            "icon": "fa fa-universal-access",
+            "title": "Life Time Access",
             "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
         }
     ]

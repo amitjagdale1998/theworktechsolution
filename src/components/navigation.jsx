@@ -1,6 +1,8 @@
 import React from "react";
 import logo from "../components/images/logo.png";
 import MarquiLine from "./MarquiLine";
+import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+
 export const Navigation = (props) => {
     return (
         <>
@@ -39,7 +41,7 @@ export const Navigation = (props) => {
                                 </div>
                             </div>
                             <button
-                                // style={{ paddingBottom: "200px" }}
+                                style={{ border: "none" }}
                                 type="button"
                                 className="navbar-toggle collapsed mb"
                                 data-toggle="collapse"
@@ -53,6 +55,43 @@ export const Navigation = (props) => {
                                 <span className="icon-bar"></span>{" "}
                                 <span className="icon-bar"></span>{" "}
                             </button>
+                        </div>
+                    </div>
+                    {/* ///CONTACT INFO */}
+                    <div className="navbar-header">
+                        <div className="text-center">
+                            <div
+                                style={{
+                                    display: "flex",
+                                    flexDirection: "row",
+                                    width: "300px",
+                                    justifyContent: "center",
+                                }}
+                            >
+                                <div className="tps">
+                                    <span className="tps-training">
+                                        Training
+                                    </span>
+                                    |
+                                    <span className="tps-placement">
+                                        Placement
+                                    </span>
+                                    |
+                                    <span className="tps-solution">
+                                        Solution
+                                    </span>
+                                </div>
+                            </div>
+                            <div
+                                className="contact-section row"
+                                style={{
+                                    justifyContent: "center",
+                                    width: "265px",
+                                }}
+                            >
+                                <WhatsAppIcon id="whatsapp-icon" />
+                                <span className="contactno">+919766769892</span>
+                            </div>
                         </div>
                     </div>
 
@@ -71,29 +110,35 @@ export const Navigation = (props) => {
                                     About
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="#services" className="page-scroll">
                                     Services
                                 </a>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <a href="#portfolio" className="page-scroll">
                                     Gallery
                                 </a>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <a href="#testimonials" className="page-scroll">
                                     Testimonials
                                 </a>
-                            </li>
-                            <li>
+                            </li> */}
+                            {/* <li>
                                 <a href="#team" className="page-scroll">
                                     Team
                                 </a>
-                            </li>
+                            </li> */}
+
                             <li>
                                 <a href="#contact" className="page-scroll">
                                     Contact
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#courses" className="page-scroll">
+                                    courses
                                 </a>
                             </li>
                         </ul>

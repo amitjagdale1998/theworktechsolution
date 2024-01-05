@@ -69,8 +69,9 @@
 }
 
 .carousel .carousel-inner .bg2 {
-    background-image: url("../images/banner2.png");
+    background-image: url("../images/girlbanner.webp");
     background-position: center center;
+    width: 100%;
 }
 
 .carousel .carousel-inner .bg3 {

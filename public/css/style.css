@@ -7,12 +7,14 @@ html {
     font-weight: 400;
     width: 100% !important;
     height: 100% !important;
+    overflow-x: hidden;
 }
 h2,
 h3,
 h4 {
-    font-family: "Raleway", sans-serif;
+    font-family: "Courier New", Courier, monospace;
 }
+
 h2 {
     text-transform: uppercase;
     margin: 0 0 20px;
@@ -37,6 +39,7 @@ h5 {
 }
 p {
     font-size: 15px;
+    font-weight: bolder;
 }
 p.intro {
     margin: 12px 0 0;
@@ -49,12 +52,16 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #f53939;
+    color: red;
 }
 ul,
 ol {
     list-style: none;
 }
+li {
+    font-size: 18px;
+}
+
 ul,
 ol {
     padding: 0;
@@ -66,7 +73,7 @@ hr {
     width: 70px;
     text-align: center;
     position: relative;
-    background: #f72274;
+    background: #980303;
     margin-bottom: 20px;
     border: 0;
 }
@@ -90,21 +97,60 @@ hr {
 .the {
     color: solid black;
 }
+#whatsapp-icon {
+    font-size: 40px;
+    color: rgb(18, 104, 210);
+    /* background-color: forestgreen;
+     */
+    padding-bottom: 5px;
+}
+.contact-section {
+    display: flex;
+    flex-direction: row;
+    padding-right: 10px;
+}
+.contactno {
+    font-size: large;
+    color: solid rgb(9, 11, 12);
+    font-weight: 600;
+    padding-top: 5px;
+}
 .worktech {
     font-size: 24px;
-    color: rgb(167, 11, 11);
+    color: #b22222;
     font-weight: bolder;
     font-family: Georgia, serif;
 }
 .solution {
     color: black;
 }
+.tps {
+    font-size: large;
+    padding-top: 5px;
+    color: #910808;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-weight: 600;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid rgb(231, 222, 222);
+    margin: 2px;
+}
+.tps-training {
+    color: #6372ff;
+}
+.tps-placement {
+    color: rgb(16, 147, 203);
+}
+.tps-solution {
+    color: orange;
+}
 #menu.navbar-default .navbar-nav > li > a {
     font-family: "Lato", sans-serif;
     text-transform: uppercase;
-    color: #130e0e;
+    color: #910808;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 600;
     padding: 8px 2px;
     border-radius: 0;
     margin: 9px 20px 0;
@@ -116,7 +162,7 @@ hr {
     bottom: -1px;
     width: 0;
     height: 2px;
-    background: red;
+    background: #910808;
     content: "";
     transition: width 0.2s;
 }
@@ -178,7 +224,7 @@ hr {
     font-family: "Raleway", sans-serif;
     text-transform: uppercase;
     color: #fff;
-    background-color: #c44f4f;
+    background-color: #910808;
     /* background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
     padding: 14px 34px;
     letter-spacing: 1px;
@@ -196,7 +242,7 @@ hr {
 .btn-custom.active {
     color: #fff;
     background-image: none;
-    background-color: #c44f4f;
+    background-color: red;
 }
 .btn:active,
 .btn.active {
@@ -229,8 +275,7 @@ a:focus,
     -o-background-size: cover;
 
     width: 90%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 200px;
 }
 .intro .overlay {
     background: rgba(0, 0, 0, 0.2);
@@ -275,7 +320,7 @@ header .intro-text {
     height: 100px;
     padding: 30px 0;
     border-radius: 50%;
-    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    background: #910808;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 /* About Section */
@@ -353,7 +398,7 @@ header .intro-text {
     width: 120px;
     height: 120px;
     padding: 40px 0;
-    background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+    background: #910808;
     border-radius: 50%;
     color: #fff;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -630,7 +675,7 @@ label {
     padding-right: 50px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 658px) {
     #about img {
         margin: 50px 0;
     }
@@ -638,4 +683,14 @@ label {
         width: 100%;
         font-size: 15px;
     }
+}
+
+/* ###################################my changes################################################################### */
+#trainingProgramme .trainingProgramme-page {
+    background-color: whitesmoke;
+}
+.heading {
+    background: -webkit-linear-gradient(#e31d1d, #5a0303);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

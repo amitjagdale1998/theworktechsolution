@@ -7,17 +7,18 @@ import fullstack2 from "./images/withoutbg/fullstack-2.png";
 import fullstack3 from "./images/withoutbg/fullstack-3.png";
 import girlpic from "./images/withoutbg/girlpic.png";
 import webdev1 from "./images/withoutbg/webdev-1.png";
+import mainbannerpic from "./images/withoutbg/webdev-1.png";
 import { styled } from "@mui/material/styles";
-import Box from "@mui/material/Box";
-import Paper from "@mui/material/Paper";
-import Grid from "@mui/material/Grid";
-const Item = styled(Paper)(({ theme }) => ({
-    backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-    ...theme.typography.body2,
-    padding: theme.spacing(1),
-    textAlign: "center",
-    color: theme.palette.text.secondary,
-}));
+// import Box from "@mui/material/Box";
+// import Paper from "@mui/material/Paper";
+// import Grid from "@mui/material/Grid";
+// const Item = styled(Paper)(({ theme }) => ({
+//     backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
+//     ...theme.typography.body2,
+//     padding: theme.spacing(1),
+//     textAlign: "center",
+//     color: theme.palette.text.secondary,
+// }));
 
 const Cursole = () => {
     return (
@@ -31,8 +32,9 @@ http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
             {/* <MarquiLine /> */}
             <div
                 id="myCarousel"
-                className="carousel slide"
+                className="carousel slide mt-5"
                 data-ride="carousel"
+                style={{ width: "100%" }}
             >
                 <ol className="carousel-indicators">
                     <li
@@ -129,8 +131,7 @@ http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
                         </div>
                     </div>
                     <div className="item bg bg2">
-                        <div className="container">
-                            {/* <div className="carousel-caption">
+                        {/* <div className="carousel-caption">
                                 <h1>One more for good measure.</h1>
                                 <p>
                                     Cras justo odio, dapibus ac facilisis in,
@@ -148,58 +149,56 @@ http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
                                     </a>
                                 </p>
                             </div> */}
-                            <div className="row girl-banner">
+                        <div className="container girl-banner text-center">
+                            <div className="row">
                                 <div className="col">
                                     <div>
-                                        {/* <p
-                                            style={{
-                                                fontSize: "20px",
-                                                color: "white",
-                                            }}
-                                        >
-                                            INDIA’S LEADING AND TRUSTED IT
-                                            TRAINING INSTITUTE OFFERING
-                                            CLASSROOM & ONLINE TRAINING
-                                        </p> */}
                                         <h3 style={{ color: "white" }}>
                                             The Worktech Solution
                                         </h3>
-                                        <button>Enquire Now</button>
-                                        <img
-                                            src={girlpic}
-                                            className="image-responsive girlpic"
-                                        ></img>
-                                    </div>
-                                </div>
-                                <div className="col">
-                                    <div
-                                        style={{ textAlign: "center" }}
-                                        className="pt-5"
-                                    >
-                                        <img
-                                            src={fullstack3}
-                                            className="image-responsive"
+
+                                        <div
                                             style={{
-                                                minWidth: "400px",
-                                                marginLeft: "auto",
-                                                marginRight: "auto",
+                                                color: "white",
                                                 padding: "20px",
-                                                maxWidth: "600px",
-                                                width: "100%",
+                                                textAlign: "center",
+                                                width: "400px",
+                                                height: "400px",
                                             }}
-                                        ></img>
-                                        <img
-                                            src={webdev1}
-                                            className="image-responsive"
-                                            style={{
-                                                minWidth: "400px",
-                                                marginLeft: "auto",
-                                                marginRight: "auto",
-                                                padding: "20px",
-                                                maxWidth: "600px",
-                                                width: "100%",
-                                            }}
-                                        ></img>
+                                        >
+                                            <h3 style={{ color: "white" }}>
+                                                Empower your future with
+                                                TheWorkTech Solution – Your
+                                                Gateway to Excellence in
+                                                Software Training. Unlock
+                                                boundless possibilities through
+                                                our comprehensive programs and
+                                                elevate your skills in the
+                                                dynamic world of technology.
+                                            </h3>
+                                            <button
+                                                style={{
+                                                    color: "white",
+                                                    backgroundColor: "red",
+                                                    height: "30px",
+                                                    borderRadius: "10px",
+                                                    width: "200px",
+                                                    fontWeight: "bolder",
+                                                    border: "2px solid white",
+                                                }}
+                                            >
+                                                Enquire Now
+                                            </button>
+                                            <img
+                                                src={mainbannerpic}
+                                                width={400}
+                                            ></img>
+                                            <h3 style={{ color: "white" }}>
+                                                Free Demo Session On Fullstack
+                                                Development Java, Dotnet, Mean
+                                                Stack, Mern Stack
+                                            </h3>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
