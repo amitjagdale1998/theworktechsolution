@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.23287193.css",
-    "main.js": "/static/js/main.7cbaac03.js",
+    "main.js": "/static/js/main.b5b5c38a.js",
     "static/media/aboutus.jpg": "/static/media/aboutus.68afa50db49034a1a860.jpg",
     "static/media/java.jpeg": "/static/media/java.2dc48a3f285a8c43af09.jpeg",
     "static/media/girlbanner.webp": "/static/media/girlbanner.e4a9cf8e20981771accc.webp",
@@ -19,10 +19,10 @@
     "static/media/mernstack.png": "/static/media/mernstack.e058f95610ceb5413a96.png",
     "index.html": "/index.html",
     "main.23287193.css.map": "/static/css/main.23287193.css.map",
-    "main.7cbaac03.js.map": "/static/js/main.7cbaac03.js.map"
+    "main.b5b5c38a.js.map": "/static/js/main.b5b5c38a.js.map"
   },
   "entrypoints": [
     "static/css/main.23287193.css",
-    "static/js/main.7cbaac03.js"
+    "static/js/main.b5b5c38a.js"
   ]
 }
