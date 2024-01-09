@@ -11,6 +11,7 @@ export const About = (props) => {
                             src={AboutImage}
                             className="img-responsive"
                             alt=""
+                            loading="lazy"
                         />
                     </div>
                     <div className="col-xs-12 col-md-6">

@@ -9,6 +9,7 @@ import girlpic from "./images/withoutbg/girlpic.png";
 import webdev1 from "./images/withoutbg/webdev-1.png";
 import mainbannerpic from "./images/withoutbg/webdev-1.png";
 import { styled } from "@mui/material/styles";
+import Modal from "./Modal";
 // import Box from "@mui/material/Box";
 // import Paper from "@mui/material/Paper";
 // import Grid from "@mui/material/Grid";
@@ -63,6 +64,7 @@ http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
                                             CLASSROOM & ONLINE TRAINING
                                         </p>
                                         <img
+                                            loading="lazy"
                                             src={fullstack1}
                                             className="image-responsive"
                                             style={{
@@ -82,6 +84,7 @@ http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
                                         className="pt-5"
                                     >
                                         <img
+                                            loading="lazy"
                                             src={django}
                                             className="image-responsive"
                                             style={{
@@ -94,6 +97,7 @@ http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
                                             }}
                                         ></img>
                                         <img
+                                            loading="lazy"
                                             src={webdev1}
                                             className="image-responsive"
                                             style={{
@@ -176,20 +180,9 @@ http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
                                                 elevate your skills in the
                                                 dynamic world of technology.
                                             </h3>
-                                            <button
-                                                style={{
-                                                    color: "white",
-                                                    backgroundColor: "red",
-                                                    height: "30px",
-                                                    borderRadius: "10px",
-                                                    width: "200px",
-                                                    fontWeight: "bolder",
-                                                    border: "2px solid white",
-                                                }}
-                                            >
-                                                Enquire Now
-                                            </button>
+
                                             <img
+                                                loading="lazy"
                                                 src={mainbannerpic}
                                                 width={400}
                                             ></img>
@@ -257,6 +250,7 @@ http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
                                             CLASSROOM & ONLINE TRAINING
                                         </p>
                                         <img
+                                            loading="lazy"
                                             src={fullstack2}
                                             className="image-responsive"
                                             style={{
@@ -276,6 +270,7 @@ http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
                                         className="pt-5"
                                     >
                                         <img
+                                            loading="lazy"
                                             src={fullstack3}
                                             className="image-responsive"
                                             style={{
@@ -288,6 +283,7 @@ http://arturssmirnovs.com/blog/bootstrap-carousel-100-height-and-width/
                                             }}
                                         ></img>
                                         <img
+                                            loading="lazy"
                                             src={webdev1}
                                             className="image-responsive"
                                             style={{

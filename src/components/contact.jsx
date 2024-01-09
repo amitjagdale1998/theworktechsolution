@@ -227,6 +227,17 @@ export const Contact = (props) => {
                                             <i className="fa fa-youtube"></i>
                                         </a>
                                     </li>
+                                    <li>
+                                        <a
+                                            href={
+                                                props.data
+                                                    ? props.data.twitter
+                                                    : "/"
+                                            }
+                                        >
+                                            <i className="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -236,8 +247,7 @@ export const Contact = (props) => {
             <div id="footer">
                 <div className="container text-center">
                     <p>
-                        &copy; The WorkTech Solution © 2012-2023. All rights
-                        reserved.{" "}
+                        &copy; TheWorkTechSolution 2023. All rights reserved.{" "}
                     </p>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.23287193.css",
-    "main.js": "/static/js/main.b5b5c38a.js",
+    "main.js": "/static/js/main.07ca2990.js",
     "static/media/aboutus.jpg": "/static/media/aboutus.68afa50db49034a1a860.jpg",
     "static/media/java.jpeg": "/static/media/java.2dc48a3f285a8c43af09.jpeg",
     "static/media/girlbanner.webp": "/static/media/girlbanner.e4a9cf8e20981771accc.webp",
@@ -15,14 +15,15 @@
     "static/media/fullstack-3.png": "/static/media/fullstack-3.c0b332d569352d08895a.png",
     "static/media/django.png": "/static/media/django.84fae41fc306a4c6e21f.png",
     "static/media/logo.png": "/static/media/logo.089d090ca0797b40ffde.png",
+    "static/media/modalbanner.jpg": "/static/media/modalbanner.d19615ee4553b0d82ba4.jpg",
     "static/media/uiux.png": "/static/media/uiux.1ce1d1189c2411d95c66.png",
     "static/media/mernstack.png": "/static/media/mernstack.e058f95610ceb5413a96.png",
     "index.html": "/index.html",
     "main.23287193.css.map": "/static/css/main.23287193.css.map",
-    "main.b5b5c38a.js.map": "/static/js/main.b5b5c38a.js.map"
+    "main.07ca2990.js.map": "/static/js/main.07ca2990.js.map"
   },
   "entrypoints": [
     "static/css/main.23287193.css",
-    "static/js/main.b5b5c38a.js"
+    "static/js/main.07ca2990.js"
   ]
 }

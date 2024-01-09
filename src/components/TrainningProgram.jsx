@@ -8,6 +8,7 @@ import mern from "./images/mernstack.png";
 import java from "./images/java.jpeg";
 import uiux from "./images/uiux.png";
 import dotnet from "./images/dotnet.png";
+import Modal from "./Modal";
 
 const TrainningProgram = () => {
     return (
@@ -48,17 +49,7 @@ const TrainningProgram = () => {
                         </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        {/* <button size="large" color="primary" className="btn">
-                            
-                        </button> */}
-                        {/* <button type="button"  > */}
-                        <a
-                            href="#contact"
-                            className="page-scroll btn btn-danger"
-                        >
-                            Enquire Now
-                        </a>
-                        {/* </button> */}
+                        <Modal />
                     </CardActions>
                 </Card>
                 <Card sx={{ maxWidth: 345, margin: "10px" }}>
@@ -86,12 +77,7 @@ const TrainningProgram = () => {
                         </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <a
-                            href="#contact"
-                            className="page-scroll btn btn-danger"
-                        >
-                            Enquire Now
-                        </a>
+                        <Modal />
                     </CardActions>
                 </Card>
                 <Card sx={{ maxWidth: 345, margin: "10px" }}>
@@ -119,12 +105,7 @@ const TrainningProgram = () => {
                         </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <a
-                            href="#contact"
-                            className="page-scroll btn btn-danger"
-                        >
-                            Enquire Now
-                        </a>
+                        <Modal />
                     </CardActions>
                 </Card>
                 <Card sx={{ maxWidth: 345, margin: "10px" }}>
@@ -153,12 +134,7 @@ const TrainningProgram = () => {
                         </CardContent>
                     </CardActionArea>
                     <CardActions>
-                        <a
-                            href="#contact"
-                            className="page-scroll btn btn-danger"
-                        >
-                            Enquire Now
-                        </a>
+                        <Modal />
                     </CardActions>
                 </Card>
             </div>
