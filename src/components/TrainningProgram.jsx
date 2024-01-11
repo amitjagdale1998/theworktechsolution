@@ -8,6 +8,12 @@ import mern from "./images/mernstack.png";
 import java from "./images/java.jpeg";
 import uiux from "./images/uiux.png";
 import dotnet from "./images/dotnet.png";
+import cybersecurity from "./images/cybersecurity.jpg";
+import pythonfullstack from "./images/pythonfullstack.png";
+import datascience from "./images/datascience.jpg";
+
+import networking from "./images/networking.jpg";
+
 import Modal from "./Modal";
 
 const TrainningProgram = () => {
@@ -28,6 +34,7 @@ const TrainningProgram = () => {
                     <CardActionArea>
                         <CardMedia
                             component="img"
+                            loading="lazy"
                             height="140"
                             image={mern}
                             alt="green iguana"
@@ -56,6 +63,7 @@ const TrainningProgram = () => {
                     <CardActionArea>
                         <CardMedia
                             component="img"
+                            loading="lazy"
                             height="140"
                             image={java}
                             alt="green iguana"
@@ -84,6 +92,7 @@ const TrainningProgram = () => {
                     <CardActionArea>
                         <CardMedia
                             component="img"
+                            loading="lazy"
                             height="140"
                             image={dotnet}
                             alt="green iguana"
@@ -112,6 +121,7 @@ const TrainningProgram = () => {
                     <CardActionArea>
                         <CardMedia
                             component="img"
+                            loading="lazy"
                             height="140"
                             image={uiux}
                             alt="green iguana"
@@ -130,6 +140,122 @@ const TrainningProgram = () => {
                                 JIRA, mantis, Bugzilla etc. Learn manual &
                                 automation testing using selenium web driver
                                 QA/Test Engineers
+                            </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                    <CardActions>
+                        <Modal />
+                    </CardActions>
+                </Card>
+                <Card sx={{ maxWidth: 345, margin: "10px" }}>
+                    <CardActionArea>
+                        <CardMedia
+                            component="img"
+                            loading="lazy"
+                            height="140"
+                            image={cybersecurity}
+                            alt="green iguana"
+                        />
+                        <CardContent>
+                            <Typography
+                                gutterBottom
+                                variant="h5"
+                                component="div"
+                            >
+                                CyberSecurity
+                            </Typography>
+                            <Typography variant="body2" color="text.secondary">
+                                Learn Enterprise application development using
+                                Java Learn fullstack web Development using
+                                Spring Boot Front end design with React Top
+                                companies are hiring fullstack java developers
+                            </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                    <CardActions>
+                        <Modal />
+                    </CardActions>
+                </Card>
+                <Card sx={{ maxWidth: 345, margin: "10px" }}>
+                    <CardActionArea>
+                        <CardMedia
+                            component="img"
+                            loading="lazy"
+                            height="140"
+                            image={networking}
+                            alt="green iguana"
+                        />
+                        <CardContent>
+                            <Typography
+                                gutterBottom
+                                variant="h5"
+                                component="div"
+                            >
+                                Networking
+                            </Typography>
+                            <Typography variant="body2" color="text.secondary">
+                                Learn Enterprise application development using
+                                Java Learn fullstack web Development using
+                                Spring Boot Front end design with React Top
+                                companies are hiring fullstack java developers
+                            </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                    <CardActions>
+                        <Modal />
+                    </CardActions>
+                </Card>
+                <Card sx={{ maxWidth: 345, margin: "10px" }}>
+                    <CardActionArea>
+                        <CardMedia
+                            component="img"
+                            loading="lazy"
+                            height="140"
+                            image={pythonfullstack}
+                            alt="green iguana"
+                        />
+                        <CardContent>
+                            <Typography
+                                gutterBottom
+                                variant="h5"
+                                component="div"
+                            >
+                                Python/Full stack
+                            </Typography>
+                            <Typography variant="body2" color="text.secondary">
+                                Learn Enterprise application development using
+                                Java Learn fullstack web Development using
+                                Spring Boot Front end design with React Top
+                                companies are hiring fullstack java developers
+                            </Typography>
+                        </CardContent>
+                    </CardActionArea>
+                    <CardActions>
+                        <Modal />
+                    </CardActions>
+                </Card>
+                <Card sx={{ maxWidth: 345, margin: "10px" }}>
+                    <CardActionArea>
+                        <CardMedia
+                            component="img"
+                            loading="lazy"
+                            height="140"
+                            image={datascience}
+                            alt="green iguana"
+                        />
+                        <CardContent>
+                            <Typography
+                                gutterBottom
+                                variant="h5"
+                                component="div"
+                            >
+                                Data Science
+                            </Typography>
+                            <Typography variant="body2" color="text.secondary">
+                                Learn Enterprise application development using
+                                Java Learn fullstack web Development using
+                                Spring Boot Front end design with React Top
+                                companies are hiring fullstack java developers
                             </Typography>
                         </CardContent>
                     </CardActionArea>

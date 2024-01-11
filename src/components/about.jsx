@@ -23,7 +23,7 @@ export const About = (props) => {
                                         {props.data.MainTitle}
                                         <h3 style={{ color: "red" }}>
                                             {" "}
-                                            WorktechSolution!
+                                            TtheWorktechSolution!
                                         </h3>
                                     </>
                                 ) : (

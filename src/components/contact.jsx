@@ -170,7 +170,8 @@ export const Contact = (props) => {
                                 <span>
                                     <i className="fa fa-map-marker"></i> Address
                                 </span>
-                                {props.data ? props.data.address : "loading"}
+                                Sr. No-47,1st Floor,Sai Nandanvan Commercial
+                                Space,Tata Guard Room,Viman Nagar,Pune.
                             </p>
                         </div>
                         <div className="contact-item">
