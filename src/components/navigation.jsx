@@ -31,11 +31,17 @@ export const Navigation = (props) => {
                                 </div>{" "}
                                 &nbsp;&nbsp;
                                 <div>
-                                    <div className="the">The</div>
-                                    <div className="worktech">
-                                        WORK TECH
-                                    </div>{" "}
-                                    <div className="solution">
+                                    <div
+                                        className="the"
+                                        style={{ color: "blue" }}
+                                    >
+                                        The
+                                    </div>
+                                    <div className="worktech">WORK TECH</div>{" "}
+                                    <div
+                                        className="solution"
+                                        style={{ color: "blue" }}
+                                    >
                                         Training Center in Pune
                                     </div>
                                 </div>
