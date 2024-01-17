@@ -1,10 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.23287193.css",
-    "main.js": "/static/js/main.b3b390cf.js",
+    "main.js": "/static/js/main.c4fafeea.js",
+    "static/media/ai.jpg": "/static/media/ai.2578b84cf505c8d84b24.jpg",
     "static/media/aboutus.jpg": "/static/media/aboutus.68afa50db49034a1a860.jpg",
     "static/media/networking.jpg": "/static/media/networking.79fde4ac77fbf351e787.jpg",
+    "static/media/android.jpg": "/static/media/android.9f9717214af8afa38386.jpg",
+    "static/media/devops.jpg": "/static/media/devops.cd7137c96bf4619e9404.jpg",
+    "static/media/cloudcomputing.jpg": "/static/media/cloudcomputing.f14e18bf047fe24a072d.jpg",
+    "static/media/businessanalyst.jpg": "/static/media/businessanalyst.7566c43c98bc5bfd4289.jpg",
     "static/media/java.jpeg": "/static/media/java.2dc48a3f285a8c43af09.jpeg",
+    "static/media/graphic.jpg": "/static/media/graphic.ee78ca47106eb60fb0c1.jpg",
     "static/media/girlbanner.webp": "/static/media/girlbanner.e4a9cf8e20981771accc.webp",
     "static/media/banner1.png": "/static/media/banner1.04974a75d253873b44b6.png",
     "static/media/pythonfullstack.png": "/static/media/pythonfullstack.7b9061fe7c1389357261.png",
@@ -12,22 +18,28 @@
     "static/media/fullstack-2.png": "/static/media/fullstack-2.1b10b1fae81bb6972c7a.png",
     "static/media/girlpic.png": "/static/media/girlpic.1c244d8487d4f6db1a01.png",
     "static/media/fullstack-1.png": "/static/media/fullstack-1.09bc03e33c87f9cc4224.png",
+    "static/media/PHP.png": "/static/media/PHP.d74752a3b35583ab0e49.png",
     "static/media/webdev-1.png": "/static/media/webdev-1.eebf739d1499ac567873.png",
     "static/media/dotnet.png": "/static/media/dotnet.ac9a50e2271960c598e2.png",
     "static/media/fullstack-3.png": "/static/media/fullstack-3.c0b332d569352d08895a.png",
     "static/media/django.png": "/static/media/django.84fae41fc306a4c6e21f.png",
+    "static/media/digitalmarketing.webp": "/static/media/digitalmarketing.dc85a6d72778da472a74.webp",
+    "static/media/blockchain.jpg": "/static/media/blockchain.532f96b6cbc9272d88a9.jpg",
+    "static/media/database.webp": "/static/media/database.b09db5ea912541b912fa.webp",
     "static/media/logo.png": "/static/media/logo.089d090ca0797b40ffde.png",
     "static/media/cybersecurity.jpg": "/static/media/cybersecurity.8e33504018655e0f3412.jpg",
+    "static/media/ccpp.jpg": "/static/media/ccpp.306a052a8d460c3be0dc.jpg",
     "static/media/datascience.jpg": "/static/media/datascience.e675dbdbd61458532dac.jpg",
     "static/media/modalbanner.jpg": "/static/media/modalbanner.d19615ee4553b0d82ba4.jpg",
     "static/media/uiux.png": "/static/media/uiux.1ce1d1189c2411d95c66.png",
+    "static/media/sap.jpeg": "/static/media/sap.cfd53e31976170b9f396.jpeg",
     "static/media/mernstack.png": "/static/media/mernstack.e058f95610ceb5413a96.png",
     "index.html": "/index.html",
     "main.23287193.css.map": "/static/css/main.23287193.css.map",
-    "main.b3b390cf.js.map": "/static/js/main.b3b390cf.js.map"
+    "main.c4fafeea.js.map": "/static/js/main.c4fafeea.js.map"
   },
   "entrypoints": [
     "static/css/main.23287193.css",
-    "static/js/main.b3b390cf.js"
+    "static/js/main.c4fafeea.js"
   ]
 }
