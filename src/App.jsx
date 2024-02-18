@@ -14,22 +14,44 @@ import "./App.css";
 import MarquiLine from "./components/MarquiLine";
 import Cursole from "./components/Cursole";
 import TrainningProgram from "./components/TrainningProgram";
+import Enquirydata from "./components/admin/Enquirydata";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
-    speed: 500,
+    speed: 3000,
     speedAsDuration: true,
 });
 
+
 const App = () => {
     const [landingPageData, setLandingPageData] = useState({});
+    const [admin,setAdmin]=useState(false)
     useEffect(() => {
         setLandingPageData(JsonData);
     }, []);
+    const url=window.location.href;
+console.log(url);
+function func()
+{
+    if(url==="http://localhost:3000/neha@"||url==="https://theworktechsolution.com/neha@" )
+    {
+        setAdmin(true);
+    }
+}
+useEffect(()=>
+{
+    func();
+},[])
 
     return (
         <div>
-            <Navigation />
-            <Cursole data={landingPageData.Header} />
+            {
+                admin?<><BrowserRouter>
+                <Routes>
+                    <Route exact path="/neha@" element={<Enquirydata/>}>
+                        </Route></Routes></BrowserRouter></>:
+                        <><Navigation />
+                      <Cursole data={landingPageData.Header} />
             <TrainningProgram />
 
             {/* <Header data={landingPageData.Header} /> */}
@@ -40,7 +62,12 @@ const App = () => {
             {/* <Gallery data={landingPageData.Gallery} /> */}
             {/* <Testimonials data={landingPageData.Testimonials} /> */}
             {/* <Team data={landingPageData.Team} /> */}
-            <Contact data={landingPageData.Contact} />
+            <Contact data={landingPageData.Contact} /></>
+            }
+             
+ 
+            
+            
         </div>
     );
 };

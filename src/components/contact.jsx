@@ -28,7 +28,7 @@ export const Contact = (props) => {
 
         try {
             const res = await axios.post(
-                "https://ionic-idvv.onrender.com/ionic/worktech",
+                "https://ionic-idvv.onrender.com/theworktech/worktech",
                 state,
                 {
                     headers: {
