@@ -96,7 +96,7 @@ export const Navigation = (props) => {
                                 }}
                             >
                                 <WhatsAppIcon id="whatsapp-icon" />
-                                <span className="contactno">+919766769892</span>
+                                <span className="contactno">+918432005680</span>
                             </div>
                         </div>
                     </div>
