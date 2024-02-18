@@ -33,7 +33,7 @@ const App = () => {
 console.log(url);
 function func()
 {
-    if(url==="http://localhost:3000/neha@"||url==="https://theworktechsolution.com/neha@" )
+    if(url==="http://localhost:3000/sonu@97970"||url==="https://theworktechsolution.com/sonu@97970" )
     {
         setAdmin(true);
     }
@@ -48,7 +48,7 @@ useEffect(()=>
             {
                 admin?<><BrowserRouter>
                 <Routes>
-                    <Route exact path="/neha@" element={<Enquirydata/>}>
+                    <Route exact path="/sonu@97970" element={<Enquirydata/>}>
                         </Route></Routes></BrowserRouter></>:
                         <><Navigation />
                       <Cursole data={landingPageData.Header} />
