@@ -33,7 +33,7 @@ const App = () => {
 console.log(url);
 function func()
 {
-    if(url==="http://localhost:3000/sonu@97970"||url==="https://theworktechsolution.com/sonu@97970" )
+    if(url==="http://localhost:3000/sonu@97970"||url==='https://theworktechsolution.com/sonu@97970' )
     {
         setAdmin(true);
     }
