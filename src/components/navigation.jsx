@@ -31,11 +31,17 @@ export const Navigation = (props) => {
                                 </div>{" "}
                                 &nbsp;&nbsp;
                                 <div>
-                                    <div className="the">The</div>
-                                    <div className="worktech">
-                                        WORK TECH
-                                    </div>{" "}
-                                    <div className="solution">
+                                    <div
+                                        className="the"
+                                        style={{ color: "blue" }}
+                                    >
+                                        The
+                                    </div>
+                                    <div className="worktech">WORK TECH</div>{" "}
+                                    <div
+                                        className="solution"
+                                        style={{ color: "blue" }}
+                                    >
                                         Training Center in Pune
                                     </div>
                                 </div>
@@ -90,7 +96,7 @@ export const Navigation = (props) => {
                                 }}
                             >
                                 <WhatsAppIcon id="whatsapp-icon" />
-                                <span className="contactno">+919766769892</span>
+                                <span className="contactno">+918432005680</span>
                             </div>
                         </div>
                     </div>

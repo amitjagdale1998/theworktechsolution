@@ -170,7 +170,8 @@ export const Contact = (props) => {
                                 <span>
                                     <i className="fa fa-map-marker"></i> Address
                                 </span>
-                                {props.data ? props.data.address : "loading"}
+                                Sr. No-47,1st Floor,Sai Nandanvan Commercial
+                                Space,Tata Guard Room,Viman Nagar,Pune.
                             </p>
                         </div>
                         <div className="contact-item">
@@ -205,17 +206,7 @@ export const Contact = (props) => {
                                             <i className="fa fa-facebook"></i>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a
-                                            href={
-                                                props.data
-                                                    ? props.data.twitter
-                                                    : "/"
-                                            }
-                                        >
-                                            <i className="fa fa-twitter"></i>
-                                        </a>
-                                    </li>
+                                    
                                     <li>
                                         <a
                                             href={
@@ -227,6 +218,17 @@ export const Contact = (props) => {
                                             <i className="fa fa-youtube"></i>
                                         </a>
                                     </li>
+                                    <li>
+                                        <a
+                                            href={
+                                                props.data
+                                                    ? props.data.instagram
+                                                    : "/"
+                                            }
+                                        >
+                                            <i className="fa fa-instagram"></i>
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -236,8 +238,7 @@ export const Contact = (props) => {
             <div id="footer">
                 <div className="container text-center">
                     <p>
-                        &copy; The WorkTech Solution © 2012-2023. All rights
-                        reserved.{" "}
+                        &copy; TheWorkTechSolution 2023. All rights reserved.{" "}
                     </p>
                 </div>
             </div>
