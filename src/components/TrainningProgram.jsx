@@ -373,7 +373,7 @@ const TrainningProgram = () => {
             />
             <CardContent>
               <Typography gutterBottom variant="h5" component="div">
-                Airtificial Intelligence
+                Artificial Intelligence
               </Typography>
               <Typography variant="body2" color="text.secondary">
                 Learn Enterprise application development using Java Learn
